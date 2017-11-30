@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 15px;
+    max-width: 1024px;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+}
+
+.row {
+    width: 100%;
+    border: 1px solid #cccccc;
+}
+
+.col {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: -4px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+}
+
+.col-lg-2 { width: 25%; padding: 15px; }
+.col-lg-4 { width: 50%; }
+.col-lg-8 { width: 100%; }
+
+
