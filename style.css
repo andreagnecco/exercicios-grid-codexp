@@ -6,26 +6,27 @@
 
 .container-fluid {
     width: 100%;
-    height: 100%;
+    padding: 15px;
+    max-width: 10240px;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
 }
 
 .row {
-    display: flex;
     width: 100%;
-    height: 15px;
-    padding: 0 15px;
+    border: 1px solid #cccccc;
 }
 
-.col-1 {
-    width: 12.5%;
-    height: 15px;
-    margin: 0 15px;
-    border: 1px solid #CCCCCC;
+.col {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: -4px;
+    border: 1px solid #cccccc;
 }
 
-.col-2 {
-    width: 25%;
-    height: 15px;
-}
+.col-lg-2 { width: 25%; }
+.col-lg-4 { width: 50%; }
+.col-lg-8 { width: 100%; }
 
 
