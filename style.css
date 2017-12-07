@@ -1,0 +1,12 @@
+.salmon-block {
+    width: 100%;
+    background-color: salmon;
+}
+
+.salmon-block__large {
+    height: 400px;
+}
+
+.salmon-block__small {
+    width: 1
+}
